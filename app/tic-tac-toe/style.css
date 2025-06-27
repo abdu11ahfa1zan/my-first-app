@@ -1,0 +1,9 @@
+.square {
+  font-size: 111px;
+  font-family: cursive;
+  width: 111px;
+  height: 111px;
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+  line-height: 20px;
+}
