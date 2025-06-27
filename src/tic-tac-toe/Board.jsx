@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./style.css";
 
-function Square({ valueisnot, onSquareClick }: { valueisnot: any; onSquareClick: any }) {
+function Square({ valueisnot, onSquareClick }) {
   const [value, setValue] = useState("");
 
   return (
