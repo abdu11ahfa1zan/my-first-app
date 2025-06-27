@@ -1,6 +1,5 @@
 import type { Route } from "./+types/home";
-import { Tick } from "../tic-tac-toe/Tick";
-import { Pattern } from "~/patterns/Pattern";
+import Pattern from "~/patterns/Pattern";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -12,7 +11,6 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <>
-      <Tick />
       <Pattern />
     </>
   );
