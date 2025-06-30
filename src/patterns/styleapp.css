@@ -1,19 +1,46 @@
-button {
+div.buttondiv button {
   width: 100px;
   height: 100px;
-  font-size: 100px;
-  font-family: 'Times New Roman', Times, serif;
-  line-height: 0%;
+  font-size: 50px;
+  font-family: fantasy;
   border-radius: 16px;
-  
+  transition: transform 0.1s ease-in-out;
+  justify-content: center;
+  padding: 10px;
+ z-index: 1;
 }
-div {
+a {
+  color: rgb(0, 0, 0);
+}
+ div.buttondiv :hover {
+  transform: scale(2);
+ }
+div.buttondiv {
   display: flex;
   justify-content: center;
   width: 100%;
   min-height: 100vh;
   align-items: center;
-  gap: 12px;
-  background-image: url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg");
+  gap: 100px;
+ }
+ div.container {
+  background-image: url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgbdl=pexels-souvenirpixels-417074.jpg&fm=jpg");
+  width: 100%;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+ div.two {
+  position: absolute;
+  height: 1000px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+ }
+
+
+ 
+ 
