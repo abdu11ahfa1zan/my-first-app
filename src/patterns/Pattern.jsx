@@ -21,7 +21,7 @@ export default function Pattern() {
   return (
     <div className="container">
       <div className="two">
-        <h1>This is a calculator🔥🔥🔥</h1>
+        <h1>This is a calculator🔥🔥</h1>
       </div>
     <div className="buttondiv">
       <button onClick={showModal}>
